@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GS Subash</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Subash Ganesan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About section -->
+    <section class="bg-danger text-white text-center py-5">
+        <h1 class="fw-normal display-3">Welcome to My Portfolio</h1> <p class="fs-3 fw-lighter">I show case my project and skills here...</p>
+    </section>
+
+    <main class="container pt-5">
+        <h1 class="text-center">About me</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <img class="img-fluid" src="./my image.jpg" alt="Subash Ganesan">
+            </div>
+            <div class="col-sm-12 col-md-7 fs-2">To pursue a challenging career with dedication and provide my
+                efficiency to the fullest in a professional organizational environment wherever
+                I serve my duties that will discover the potential in me.</div>
+        </div>
+    </main>
+
+    <!-- Portfolio section -->
+    <section class="container bg-lighter">
+        <h2 class="text-center pt-5 pb-3">Portfolio</h2> 
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="project1-image">
+                <div class="card-body">
+                    <h4>Project1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+                    <button class="btn btn-primary" type="button">Read more</button>
+                </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="project1-image">
+                <div class="card-body">
+                    <h4>Project1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+                    <button class="btn btn-primary" type="button">Read more</button>
+                </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="project1-image">
+                <div class="card-body">
+                    <h4>Project1</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+                    <button class="btn btn-primary" type="button">Read more</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="container mt-5">
+        <h2 class="text-center">Contact us</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 mx-auto d-flex flex-column align-items-center">
+                <label class="form-label d-block mt-3" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Subash Ganesan"/>
+
+                <label class="form-label d-block mt-3" for="email">Email-id</label>
+                <input class="form-control" id="email" type="text" placeholder="gssubashofficial@gmail.com"/>
+                
+                <label class="form-label d-block mt-3" for="message">Message</label>
+                <textarea class="form-control" id="message"  rows="5" placeholder="Write your message here..."></textarea>
+
+                <button class="btn btn-primary w-75 btn-lg mt-4" type="button">Submit</button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="bg-dark text-center text-white py-3 mt-2">
+        &copy; 2023 All rights reserved by Subash Ganesan.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
 </html>
